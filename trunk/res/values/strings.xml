@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TinyURL</string>
+	<string name="title_create">Create TinyURL</string>
+	<string name="title_creating">Creating TinyURL...</string>
+	<string name="title_created">Created TinyURL.</string>
+	<string name="title_send">Share %s</string>
+	<string name="label_url">URL: </string>
+	<string name="label_original_url">Original URL: </string>
+	<string name="button_create">Create</string>
+	<string name="button_send">Share</string>
+	<string name="button_copy">Copy</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_ok">OK</string>
+	<string name="message_copied">Copied</string>
+	<string name="message_invalid_url">Invalid URL</string>
+	<string name="message_tip">Tip: The easiest way to create a TinyURL is to share
+		a web page, YouTube video, or other link.</string>
+</resources>
