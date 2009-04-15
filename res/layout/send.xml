@@ -18,14 +18,17 @@
 			android:paddingTop="10dip" android:paddingBottom="10dip"
 			android:layout_gravity="center" android:visibility="gone" />
 		<LinearLayout android:orientation="horizontal"
-			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
 			android:layout_gravity="center">
 			<Button android:id="@+id/button_send" android:text="@string/button_send"
-				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" />
 			<Button android:id="@+id/button_copy" android:text="@string/button_copy"
-				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" />
 			<Button android:id="@+id/button_cancel" android:text="@string/button_cancel"
-				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" />
 		</LinearLayout>
 	</LinearLayout>
 </ScrollView>
