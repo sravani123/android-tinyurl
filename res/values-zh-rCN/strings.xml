@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<resources>
+  <string name="app_name">缩略URL</string> 
+  <string name="title_create">创建缩略URL</string> 
+  <string name="title_creating">正在创建 缩略URL...</string> 
+  <string name="title_created">已创建 缩略URL.</string> 
+  <string name="title_send">分享 %s</string> 
+  <string name="label_url">URL:</string> 
+  <string name="label_original_url">原 URL:</string> 
+  <string name="button_create">创建</string> 
+  <string name="button_send">分享</string> 
+  <string name="button_copy">复制</string> 
+  <string name="button_cancel">取消</string> 
+  <string name="button_ok">确定</string> 
+  <string name="message_copied">已复制</string> 
+  <string name="message_invalid_url">无效 URL</string> 
+  <string name="message_tip">提示: 缩略URL最适用于分享网页，在线视频或者其他较长网址。</string> 
+</resources>
