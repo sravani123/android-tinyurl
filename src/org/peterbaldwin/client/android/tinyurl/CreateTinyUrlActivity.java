@@ -38,7 +38,6 @@ public class CreateTinyUrlActivity extends Activity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setTitle(R.string.title_create);
 		setContentView(R.layout.create);
 
 		mEditUrl = (EditText) findViewById(R.id.edit_url);
