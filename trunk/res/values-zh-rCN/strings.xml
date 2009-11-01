@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?> 
 <resources>
   <string name="app_name">缩略URL</string> 
+  <string name="title_share">缩略URL</string>
   <string name="title_create">创建缩略URL</string> 
-  <string name="title_creating">正在创建 缩略URL...</string> 
+  <string name="title_creating">正在创建 缩略URL&#8230;</string> 
   <string name="title_created">已创建 缩略URL.</string> 
   <string name="title_send">分享 %s</string> 
-  <string name="label_url">URL:</string> 
+  <string name="hint_url">URL</string> 
   <string name="label_original_url">原 URL:</string> 
   <string name="button_create">创建</string> 
   <string name="button_send">分享</string> 
