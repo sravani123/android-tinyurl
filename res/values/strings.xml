@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">Link Shortener for TinyURL</string>
+	<string name="label_main">TinyURL</string>
 	<string name="title_create">Create URL</string>
 	<string name="title_share">Share on TinyURL</string>
 	<string name="title_creating">Creating URL&#8230;</string>

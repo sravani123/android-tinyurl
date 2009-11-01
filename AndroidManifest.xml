@@ -10,7 +10,7 @@
 	<application android:label="@string/app_name" android:icon="@drawable/icon">
 		<activity android:name="CreateTinyUrlActivity" android:theme="@android:style/Theme.Dialog"
 			android:label="@string/title_create" android:excludeFromRecents="true">
-			<intent-filter>
+			<intent-filter android:label="@string/label_main">
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
