@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?> 
 <resources>
-  <string name="app_name">縮略URL</string> 
+  <string name="app_name">縮略URL</string>
+  <string name="label_main">縮略URL</string>  
   <string name="title_share">縮略URL</string>
   <string name="title_create">創建縮略URL</string> 
   <string name="title_creating">正在創建 縮略URL&#8230;</string> 
