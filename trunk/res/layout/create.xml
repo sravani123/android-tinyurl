@@ -4,11 +4,9 @@
 	<LinearLayout android:orientation="vertical"
 		android:layout_width="fill_parent" android:layout_height="fill_parent"
 		android:paddingLeft="6dip" android:paddingRight="6dip">
-		<TextView android:layout_width="wrap_content"
-			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
-			android:text="@string/label_url" android:paddingTop="10dip" />
-		<EditText android:id="@+id/edit_url" android:layout_width="fill_parent"
-			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+		<EditText android:id="@+id/edit_url" android:hint="@string/hint_url"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
 		<TextView android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:text="@string/message_tip"
 			android:paddingBottom="10dip" android:textAppearance="?android:attr/textAppearanceSmall" />
