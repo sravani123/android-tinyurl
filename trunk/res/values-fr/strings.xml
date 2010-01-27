@@ -16,5 +16,5 @@
   <string name="button_ok">OK</string>
   <string name="message_copied">Copiée</string>
   <string name="message_invalid_url">URL invalide</string>
-  <string name="message_tip">Astuce: Le plus facile pour créer un lien TinyURL est de partager une page web, vidéo YouTube, ou tout autre lien.</string>
+  <string name="message_tip"><b>Astuce:</b> Le plus facile pour créer un lien TinyURL est de partager une page web, vidéo YouTube, ou tout autre lien.</string>
 </resources>

@@ -16,5 +16,5 @@
   <string name="button_ok">確定</string> 
   <string name="message_copied">已復制</string> 
   <string name="message_invalid_url">無效 URL</string> 
-  <string name="message_tip">提示: 縮略URL最適用于分享網頁，在線視頻或者其他較長網址。</string> 
+  <string name="message_tip"><b>提示:</b> 縮略URL最適用于分享網頁，在線視頻或者其他較長網址。</string> 
 </resources>
