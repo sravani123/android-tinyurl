@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Translations by Juho Mikkonen -->
+    <string name="app_name">Linkin lyhentäjä TinyURL</string>
+    <string name="label_main">TinyURL</string>
+    <string name="title_create">Luo URL</string>
+    <string name="title_share">Jaa TinyURLissa</string>
+    <string name="title_creating">Luodaan URL&#8230;</string>
+    <string name="title_created">URL luotu.</string>
+    <string name="title_send">Jaa %s</string>
+    <string name="hint_url">Anna URL</string>
+    <string name="label_original_url">Alkuperäinen URL: </string>
+    <string name="button_create">Luo</string>
+    <string name="button_send">Jaa</string>
+    <string name="button_copy">Kopioi</string>
+    <string name="button_cancel">Peruuta</string>
+    <string name="button_ok">OK</string>
+    <string name="message_copied">Kopioitu</string>
+    <string name="message_invalid_url">Viallinen URL</string>
+    <string name="message_tip">
+        <b>Vinkki:</b>
+        Hyviä tapoja käyttää TinyURL linkkiä ovat esim Youtube videot,
+        nettisivusto tai muu linkki
+    </string>
+</resources>
