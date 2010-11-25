@@ -48,8 +48,16 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+// TODO: Save state
 public class SendTinyUrlActivity extends Activity implements
-		View.OnClickListener, DialogInterface.OnClickListener, Runnable {
+		View.OnClickListener, DialogInterface.OnClickListener, Runnable,
+		Handler.Callback {
+
+	static final int HANDLE_URL = 1;
+	static final int HANDLE_ERROR = 2;
+
+	private final Handler mHandler = new Handler(this);
+	
 	private TextView mTextOriginalUrl;
 	private ProgressBar mProgressUrl;
 	private TextView mTextUrl;
@@ -60,24 +68,26 @@ public class SendTinyUrlActivity extends Activity implements
 	private String mUrl;
 	private String mTinyUrl;
 
-	static final int HANDLE_URL = 1;
-	static final int HANDLE_ERROR = 2;
-
-	private final Handler mHandler = new Handler() {
-		@Override
-		public void handleMessage(Message msg) {
-			switch (msg.what) {
-			case HANDLE_URL:
-				String url = (String) msg.obj;
-				handleUrl(url);
-				break;
-			case HANDLE_ERROR:
-				Throwable t = (Throwable) msg.obj;
-				handleError(t);
-				break;
-			}
+	/**
+	 * {@inheritDoc}
+	 */
+	public boolean handleMessage(Message msg) {
+		if (isFinishing()) {
+			return false;
 		}
-	};
+		switch (msg.what) {
+		case HANDLE_URL:
+			String url = (String) msg.obj;
+			handleUrl(url);
+			return true;
+		case HANDLE_ERROR:
+			Throwable t = (Throwable) msg.obj;
+			handleError(t);
+			return true;
+		default:
+			return false;
+		}
+	}
 
 	void handleUrl(String url) {
 		mTinyUrl = url;
