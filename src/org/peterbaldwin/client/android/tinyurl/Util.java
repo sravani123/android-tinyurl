@@ -21,15 +21,15 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 class Util {
-	private Util() {
-	}
+    private Util() {
+    }
 
-	public static boolean isValidUrl(String url) {
-		try {
-			new URL(url);
-			return true;
-		} catch (MalformedURLException e) {
-			return false;
-		}
-	}
+    public static boolean isValidUrl(String url) {
+        try {
+            new URL(url);
+            return true;
+        } catch (MalformedURLException e) {
+            return false;
+        }
+    }
 }
